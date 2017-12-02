@@ -1,1 +1,9 @@
+# brain
 export FILE_BRAIN_PATH="brain-dump.json"
+
+# rocketchat
+export ROCKETCHAT_URL=''
+export ROCKETCHAT_ROOM=''
+export LISTEN_ON_ALL_PUBLIC=true
+export ROCKETCHAT_USER=crabot
+export ROCKETCHAT_PASSWORD=****

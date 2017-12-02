@@ -5,10 +5,11 @@
   "author": "mose <mose@crapaud-fou.org>",
   "description": "Le robot crapaud (fou).",
   "dependencies": {
-    "hubot": "^2.19.0",
     "coffee-script": "1.12.6",
+    "hubot": "^2.19.0",
     "hubot-help": "^0.2.2",
-    "hubot-rocketchat": "^1.0.12"
+    "hubot-rocketchat": "^1.0.12",
+    "hubot-rss-reader": "^0.8.3"
   },
   "engines": {
     "node": "0.10.x"

@@ -7,3 +7,14 @@ export ROCKETCHAT_ROOM=''
 export LISTEN_ON_ALL_PUBLIC=true
 export ROCKETCHAT_USER=crabot
 export ROCKETCHAT_PASSWORD=****
+
+# rss reader
+export DEBUG=hubot-rss-reader*      # debug print
+export HUBOT_RSS_INTERVAL=600       # 600 sec (default)
+export HUBOT_RSS_HEADER=:frog:      # RSS Header Emoji (default is "sushi")
+export HUBOT_RSS_USERAGENT=hubot    # (default is "hubot-rss-reader/#{package_version}")
+export HUBOT_RSS_PRINTSUMMARY=true  # print summary (default is "true")
+export HUBOT_RSS_PRINTIMAGE=true    # print image in summary (default is "true")
+export HUBOT_RSS_PRINTERROR=true    # print error message (default is "true")
+export HUBOT_RSS_IRCCOLORS=false    # use IRC color message (default is "false")
+export HUBOT_RSS_LIMIT_ON_ADD=5     # limit printing entries on add new feed. (default is 5)

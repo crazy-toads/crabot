@@ -1,23 +1,14 @@
 {
   "name": "crabot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "author": "mose <mose@mose.com>",
+  "author": "mose <mose@crapaud-fou.org>",
   "description": "Le robot crapaud (fou).",
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-diagnostics": "0.0.2",
-    "hubot-google-images": "^0.2.7",
-    "hubot-google-translate": "^0.2.1",
+    "coffee-script": "1.12.6",
     "hubot-help": "^0.2.2",
-    "hubot-heroku-keepalive": "^1.0.3",
-    "hubot-maps": "0.0.3",
-    "hubot-pugme": "^0.1.1",
-    "hubot-redis-brain": "0.0.4",
-    "hubot-rocketchat": "^1.0.12",
-    "hubot-rules": "^0.1.2",
-    "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.1"
+    "hubot-rocketchat": "^1.0.12"
   },
   "engines": {
     "node": "0.10.x"
